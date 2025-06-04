@@ -27,6 +27,6 @@ app.post('/api/detector', upload.single('image'), (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Worker ${process.pid} escuchando en puerto ${PORT}`);
 });
