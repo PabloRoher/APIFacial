@@ -1,0 +1,17 @@
+{
+  "name": "apiprueba",
+  "version": "1.0.0",
+  "main": "cluster-server.js",
+  "scripts": {
+  "start": "node cluster-server.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.0"
+  }
+}
